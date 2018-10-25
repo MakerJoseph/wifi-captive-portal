@@ -1,0 +1,60 @@
+body{
+  font-family: 'Mali', cursive, sans-serif;
+  background-color: #1e272e;
+  color: #44bd32;
+  text-align: center;
+}
+
+.container{
+  padding: 50px;
+}
+
+.form{
+  border-radius: 30px;
+  display: block;
+  font-size: 1.5em;
+  border: 2px solid #44bd32;
+  padding: 20px;
+  padding-bottom: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+form input{
+  font-size: 20px;
+  background: #1e272e;
+  border: 2px solid #44bd32;
+  border-radius: 10px;
+  color: #44bd32;
+}
+
+::placeholder{
+  color: #44bd32;
+}
+
+form label{
+  text-align: left;
+}
+
+img{
+  border-radius: 80px;
+  height: 150px;
+  width: 150px;
+  /* background-image: url("../img/img_me.JPG");
+  background-size: cover;
+  margin-left: 540px;
+  margin-right: 400px;
+  margin-bottom: 20px; */
+  text-align: center;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  color: #44bd32;
+  border: 2px solid #44bd32;
+  border-radius: 10px;
+  background: #1e272e;
+  font-size: 20px;
+  margin-top: 20px;
+}
